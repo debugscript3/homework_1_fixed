@@ -1,4 +1,3 @@
-
 bindKey("e", "down", function()
     local vehicle = getPedOccupiedVehicle(localPlayer)
     if not isElement(vehicle) then return end
